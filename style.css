@@ -1,11 +1,13 @@
 /* Header-start */
 .header {
-  padding: 60px;
-  text-align: center;
-  background: #3b448b;
-  color: white;
-  font-size: 30px;
+    padding: 60px;
+    text-align: center;
+    background: #3b448b;
+    color: white;
+    font-size: 30px;
+    border-radius: 3%;
 }
+
 
 .header-logo-div {
     float: left;
@@ -24,7 +26,18 @@ p.header-slogan {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-/* Content-start */
+/* Footer-start */
+.footer {
+    padding: 3px 0px;
+    text-align: center;
+    background: #3b448b;
+    color: white;
+    font-size: 16px;
+    border-radius: 3%;
+}
+
+
+/* Index Content-start */
 .content {
     margin-left: 10%;
     margin-right: 10%;
@@ -32,4 +45,25 @@ p.header-slogan {
 }
 
 
-/* Footer-start */
+
+/* Aanwezige dieren content-start */
+.dieren {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.dieren td, #dieren th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.dieren tr:nth-child(even){background-color: #f2f2f2;}
+.dieren tr:hover {background-color: #ddd;}
+.dieren th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+table.dieren tr td:first-child{  font-weight: bold;}
