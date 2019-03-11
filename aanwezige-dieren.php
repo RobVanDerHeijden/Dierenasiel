@@ -49,6 +49,35 @@
         </tr>
       </tbody>
     </table>
+    
+    <h3>Dier toevoegen:</h3>
+    <form>
+        <table id="dieren-toevoegen-form-tabel" class="dieren-toevoegen-form-tabel">
+            <tr>
+                <td><label for="naam">Naam</label></td>
+                <td><input type="text" id="naam" /></td>
+            </tr>
+            <tr>
+                <td><label for="leeftijd">Leeftijd</label></td>
+                <td><input type="number" id="leeftijd" /></td>
+            </tr>
+            <tr>
+                <td><label for="regnr">Registratie Nummer</label></td>
+                <td><input type="number" id="regnr" /></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="diersoort" value="hond"> Hond<br></td>
+                <td><input type="radio" name="diersoort" value="kat"> Kat</td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Toevoegen" /></td>
+            </tr>
+
+            
+        </table>
+        
+    </form>
+    
 </div>
 
 <?php include 'footer.php'; ?>
